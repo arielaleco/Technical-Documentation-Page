@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Raleway|Source+Code+Pro" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Abel|Alfa+Slab+One|Monoton" rel="stylesheet">
+    <script  src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA=" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <meta http-equiv="refresh" content="5"> -->
+</head>
+
+<body>
+   <div id="upper-banner">
+       <img id="js-icon" src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Javascript-shield.png">
+        <h1>Java Script Documentation</h1>
+   </div>
+   <div id="left-panel">       
+        <ul>
+            <li class="orange-book"><a target="_self" href="#DataTypes" >Data Types</a></li>
+            <li class="red-book"><a target="_self" href="#MathObject" >Math Object</a></li>
+            <li class="purple-book"><a target="_self" href="#SwitchStatement">Switch Statement</a></li>             
+            <li class="blue-book"><a target="_self" href="#Conditions" >Conditions</a></li>
+            <li class="cyne-book"><a target="_self" href="#ForLoop" >For Loop</a></li>
+            
+            <li class="green-book"><a target="_self" href="#DateObjects" >Date Objects</a></li>            
+            <li class="yellow-book"><a target="_self" href="#RegularExpressions" >Regular Expressions</a></li>            
+            <li class="red-big-book"><a target="_self" href="#DateFormats" >Date Formats</a></li>            
+            <li class=""><a target="_self" href="#GetDateMethods" >Get Date Methods</a></li>            
+            <li class=""><a target="_self" href="#SetDateMethods" >Set Date Methods</a></li>            
+            <li class=""><a target="_self" href="#SortingArrays" >Sorting Arrays</a></li>                                                          
+            <li class=""><a target="_self" href="#JavaScriptStrings" >JavaScript Strings</a></li>            
+            <li class=""><a target="_self" href="#JavaScriptEvents" >JavaScr class=""ipt Events</a></li>  
+            
+            
+           
+        </ul>
+    </div>
+   <div id="page-info">
+
+   
+    
+    <div id="main-panel">
+        <div id="DataTypes" class="main-subject">
+            <h3>JavaScript Data Types</h3>
+            <p>JavaScript variables can hold many data types: numbers, strings, objects and more:</p>
+
+
+        </div>
+        <div id="MathObject" class="main-subject">
+            <h3>JavaScript Math Object</h3>
+            <p>The JavaScript Math object allows you to perform mathematical tasks on numbers.</p>
+
+            <p class="sub-header">Math.round(x) </p>
+            <p>returns the value of x rounded to its nearest integer:</p>
+            <p class="example">Math.round(4.7); // returns 5<button class="copy-clipboard"></button></p>
+
+
+            <p>Math.pow()</p>
+            <p>Math.pow(x, y) returns the value of x to the power of y:</p>
+            <p class="example">Math.pow(8, 2); // returns 64<button class="copy-clipboard"></button></p>
+            <p class="sub-header">Math.sqrt()</p>
+            <p>Math.sqrt(x) returns the square root of x:</p>
+            <p class="example">Math.sqrt(64); // returns 8<button class="copy-clipboard"></button></p>
+            <p class="sub-header">Math.abs()</p>
+            <p>Math.abs(x) returns the absolute (positive) value of x:</p>
+            <p class="example">Math.abs(-4.7); // returns 4.7<button class="copy-clipboard"></button></p>
+
+            <p class="sub-header">Math.ceil()</p>
+            <p>Math.ceil(x) returns the value of x rounded up to its nearest integer:</p>
+            <p class="example">Math.ceil(4.4); // returns 5<button class="copy-clipboard"></button></p>
+
+            <p class="sub-header">Math.floor()</p>
+            <p>Math.floor(x) returns the value of x rounded down to its nearest integer:</p>
+            <p class="example">Math.floor(4.7); // returns 4<button class="copy-clipboard"></button></p>
+
+            <p class="sub-header">Math.sin()</p>
+            <p>Math.sin(x) returns the sine (a value between -1 and 1) of the angle x (given in radians). If you want to use
+                degrees instead of radians, you have to convert degrees to radians: Angle in radians = Angle in degrees x
+                PI / 180.</p>
+            <p class="example">Math.sin(90 * Math.PI / 180); // returns 1 (the sine of 90 degrees)<button class="copy-clipboard"></button></p>
+
+            <p class="sub-header">Math.cos()</p>
+            <p>Math.cos(x) returns the cosine (a value between -1 and 1) of the angle x (given in radians). If you want to use
+                degrees instead of radians, you have to convert degrees to radians: Angle in radians = Angle in degrees x
+                PI / 180.</p>
+            <p class="example">Math.cos(0 * Math.PI / 180); // returns 1 (the cos of 0 degrees)<button class="copy-clipboard"></button></p>
+
+            <p class="sub-header">Math.min() and Math.max()</p>
+            <p>Math.min() and Math.max() can be used to find the lowest or highest value in a list of arguments:</p>
+            <p class="example">Math.min(0, 150, 30, 20, -8, -200); // returns -200<button class="copy-clipboard"></button></p>
+            <p class="example">Math.max(0, 150, 30, 20, -8, -200); // returns 150<button class="copy-clipboard"></button></p>
+
+            <p class="sub-header">Math.random()</p>
+            <p>Math.random() returns a random number between 0 (inclusive), and 1 (exclusive):</p>
+            <p class="example">Math.random(); // returns a random number<button class="copy-clipboard"></button></p>
+
+            <a href="https://www.w3schools.com/js/js_math.asp">Learn More</a>
+
+        </div>
+        <div id="Conditions" class="main-subject">
+            <h3>If...Else Statements</h3>
+            <p>Conditional statements are used to perform different actions based on different conditions.</p>
+            <p class="sub-header">The if Statement</p>
+            <p>Use the if statement to specify a block of JavaScript code to be executed if a condition is true.</p>
+            <p class="example">if (condition) { block of code to be executed if the condition is true }<button class="copy-clipboard"></button>
+            </p>
+            <p class="example">if (hour
+                < 18) { greeting="Good day" ; }<button class="copy-clipboard"></button></p>
+
+                    <p class="sub-header">The else Statement</p>
+                    <p>Use the else statement to specify a block of code to be executed if the condition is false.</p>
+                    <p class="example">if (hour
+                        < 18) { greeting="Good day" ; } else { greeting="Good evening" ; }<button class="copy-clipboard"></button></p>
+        </div>
+
+
+        <div id="SwitchStatement" class="main-subject">
+            <h3>The switch statement is used to perform different actions based on different conditions.</h3>
+            <p></p>
+
+            <p class="sub-header">Switch Statement</p>
+            <p>Use the switch statement to select one of many code blocks to be executed.</p>
+            <p class="example">switch (new Date().getDay()) { case 0: day = "Sunday"; break; case 1: day = "Monday"; break; case 2: day = "Tuesday";
+                break; case 3: day = "Wednesday"; break; case 4: day = "Thursday"; break; case 5: day = "Friday"; break;
+                case 6: day = "Saturday"; }<button class="copy-clipboard"></button>
+            </p>
+
+            <p class="sub-header">The break Keyword</p>
+            <p>When JavaScript reaches a break keyword, it breaks out of the switch block. This will stop the execution of more
+                code and case testing inside the block. When a match is found, and the job is done, it's time for a break.
+                There is no need for more testing.</p>
+            <p class="example">switch (new Date().getDay()) { case 6: text = "Today is Saturday"; break; case 0: text = "Today is Sunday"; break;
+                default: text = "Looking forward to the Weekend"; }<button class="copy-clipboard"></button>
+            </p>
+
+            <p class="sub-header">The default Keyword</p>
+            <p>The default case does not have to be the last case in a switch block:</p>
+            <p class="example">switch (new Date().getDay()) { default: text = "Looking forward to the Weekend"; break; case 6: text = "Today
+                is Saturday"; break; case 0: text = "Today is Sunday"; }<button class="copy-clipboard"></button>
+            </p>
+
+            <p class="sub-header">Common Code Blocks</p>
+            <p>Sometimes you will want different switch cases to use the same code.</p>
+            <p class="example">switch (new Date().getDay()) { case 4: case 5: text = "Soon it is Weekend"; break; case 0: case 6: text = "It
+                is Weekend"; break; default: text = "Looking forward to the Weekend"; }<button class="copy-clipboard"></button>
+            </p>
+
+            <p class="sub-header">Strict Comparison</p>
+            <p>Switch cases use strict comparison (===). The values must be of the same type to match. A strict comparison can
+                only be true if the operands are of the same type. In this example there will be no match for x:</p>
+            <p class="example">var x = "0"; switch (x) { case 0: text = "Off"; break; case 1: text = "On"; break; default: text = "No value
+                found"; }<button class="copy-clipboard"></button>
+            </p>
+            <a href="https://www.w3schools.com/js/js_switch.asp">Learn More</a>
+        </div>
+
+        <div id="ForLoop" class="main-subject">
+            <h3>JavaScript For Loop</h3>
+            <p>Loops can execute a block of code a number of times.</p>
+
+            <p class="sub-header">JavaScript Loops</p>
+            <p>Loops are handy, if you want to run the same code over and over again, each time with a different value. Often
+                this is the case when working with arrays:</p>
+            <p class="example">var i; for (i = 0; i< cars.length; i++) { text +=c ars[i] + "<br>"; }</p>
+
+                    <p class="sub-header">Different Kinds of Loops</p>
+                    <p>JavaScript supports different kinds of loops: for - loops through a block of code a number of times for/in
+                        - loops through the properties of an object while - loops through a block of code while a specified
+                        condition is true do/while - also loops through a block of code while a specified condition is true</p>
+                    <p class="example">for (i = 0; i
+                        < 5; i++) { text +="The number is " + i + "<br>"; }<button class="copy-clipboard"></button></p>
+
+                            <p class="sub-header">Statement 1</p>
+                            <p>Normally you will use statement 1 to initialize the variable used in the loop (i = 0). This is
+                                not always the case, JavaScript doesn't care. Statement 1 is optional. You can initiate many
+                                values in statement 1 (separated by comma):</p>
+                            <p class="example">for (i = 0, len = cars.length, text = ""; i
+                                < len; i++) { text +=c ars[i] + "<br>"; }<button class="copy-clipboard"></button></p>
+
+                                    <p class="sub-header">Statement 2</p>
+                                    <p>Often statement 2 is used to evaluate the condition of the initial variable. This is
+                                        not always the case, JavaScript doesn't care. Statement 2 is also optional. If statement
+                                        2 returns true, the loop will start over again, if it returns false, the loop will
+                                        end.
+                                    </p>
+                                    <p class="example">var i = 0; var len = cars.length; for (; i
+                                        < len; ) { text +=c ars[i] + "<br>"; i++; }<button class="copy-clipboard"></button></p>
+
+                                            <p class="sub-header">The For/In Loop</p>
+                                            <p>The JavaScript for/in statement loops through the properties of an object:</p>
+                                            <p class="example">var person = {fname:"John", lname:"Doe", age:25}; var text = ""; var x; for (x
+                                                in person) { text += person[x]; }<button class="copy-clipboard"></button>
+                                            </p>
+
+                                            <p class="sub-header">The While Loop</p>
+                                            <p>The while loop loops through a block of code as long as a specified condition
+                                                is true.</p>
+                                            <p class="example">while (i
+                                                < 10) { text +="The number is " + i; i++; }<button class="copy-clipboard"></button></p>
+
+                                                    <a href="https://www.w3schools.com/js/js_loop_for.asp">Learn More</a>
+        </div>
+
+        
+        <div id="RegularExpressions" class="main-subject">
+            <h3>JavaScript Regular Expressions</h3>
+            <p>A regular expression is a sequence of characters that forms a search pattern. The search pattern can be used
+                for text search and text replace operations.</p>
+
+            <p class="sub-header">What Is a Regular Expression?</p>
+            <p>A regular expression is a sequence of characters that forms a search pattern. When you search for data in a text,
+                you can use this search pattern to describe what you are searching for. A regular expression can be a single
+                character, or a more complicated pattern. Regular expressions can be used to perform all types of text search
+                and text replace operations.</p>
+            <p class="example">var patt = /w3schools/i;<button class="copy-clipboard"></button></p>
+
+            <p class="sub-header">Using String search() With a String</p>
+            <p>The search() method searches a string for a specified value and returns the position of the match:</p>
+            <p class="example">var str = "Visit W3Schools!"; var n = str.search("W3Schools");<button class="copy-clipboard"></button></p>
+
+            <p class="sub-header">Using String replace() With a String</p>
+            <p>The replace() method replaces a specified value with another value in a string</p>
+            <p class="example">var str = "Visit Microsoft!"; var res = str.replace("Microsoft", "W3Schools");<button class="copy-clipboard"></button></p>
+
+            <p class="sub-header">Use String replace() With a Regular Expression</p>
+            <p>Use a case insensitive regular expression to replace Microsoft with W3Schools in a string:</p>
+            <p class="example">var str = "Visit Microsoft!"; var res = str.replace(/microsoft/i, "W3Schools");<button class="copy-clipboard"></button></p>
+
+            <p class="sub-header">Using test()</p>
+            <p>The test() method is a RegExp expression method. It searches a string for a pattern, and returns true or false,
+                depending on the result. The following example searches a string for the character "e":</p>
+            <p class="example">var patt = /e/; patt.test("The best things in life are free!");<button class="copy-clipboard"></button></p>
+
+            <p class="sub-header">Using exec()</p>
+            <p>The exec() method is a RegExp expression method. It searches a string for a specified pattern, and returns the
+                found text. If no match is found, it returns null. The following example searches a string for the character
+                "e":
+            </p>
+            <p class="example">/e/.exec("The best things in life are free!");<button class="copy-clipboard"></button></p>
+
+            <a href="https://www.w3schools.com/js/js_regexp.asp">Learn More</a>
+        </div>
+
+        <div id="GetDateMethods" class="main-subject">
+            <h3>JavaScript Get Date Methods</h3>
+            <p>
+                These methods can be used for getting information from a date object:</p>
+
+            <p class="sub-header">The getTime() Method</p>
+            <p>The getTime() method returns the number of milliseconds since January 1, 1970: Example
+
+            </p>
+            <p class="example">var d = new Date(); document.getElementById("demo").innerHTML = d.getTime();<button class="copy-clipboard"></button></p>
+
+            <p class="sub-header">The getFullYear() Method</p>
+            <p>The getFullYear() method returns the year of a date as a four digit number:</p>
+            <p class="example">var d = new Date(); document.getElementById("demo").innerHTML = d.getFullYear();<button class="copy-clipboard"></button></p>
+
+            <p class="sub-header">The getMonth() Method</p>
+            <p>The getMonth() method returns the month of a date as a number (0-11):</p>
+            <p class="example">var d = new Date(); document.getElementById("demo").innerHTML = d.getMonth();<button class="copy-clipboard"></button></p>
+        </div>
+
+        <div id="SetDateMethods" class="main-subject">
+            <h3>JavaScript Set Date Methods</h3>
+            <p>Set Date methods let you set date values (years, months, days, hours, minutes, seconds, milliseconds) for a Date
+                Object.
+            </p>
+
+            <p class="sub-header">The setFullYear() Method</p>
+            <p>The setFullYear() method sets the year of a date object. In this example to 2020:</p>
+            <p class="example">script var d = new Date(); d.setFullYear(2020); document.getElementById("demo").innerHTML = d; /script<button class="copy-clipboard"></button>
+            </p>
+
+            <p class="sub-header">The setMonth() Method</p>
+            <p>The setMonth() method sets the month of a date object (0-11):</p>
+            <p class="example">script var d = new Date(); d.setMonth(11); document.getElementById("demo").innerHTML = d; /script<button class="copy-clipboard"></button>
+            </p>
+
+
+        </div>
+
+        <div id="SortingArrays" class="main-subject">
+            <h3>JavaScript Sorting Arrays</h3>
+            <p></p>
+
+            <p class="sub-header">Sorting an Array</p>
+            <p>The sort() method sorts an array alphabetically:</p>
+            <p class="example">var fruits = ["Banana", "Orange", "Apple", "Mango"]; fruits.sort(); // Sorts the elements of fruits<button class="copy-clipboard"></button></p>
+
+            <p class="sub-header">Reversing an Array</p>
+            <p>The reverse() method reverses the elements in an array. You can use it to sort an array in descending order:</p>
+            <p class="example">var fruits = ["Banana", "Orange", "Apple", "Mango"]; fruits.sort(); // First sort the elements of fruits fruits.reverse();
+                // Then reverse the order of the elements<button class="copy-clipboard"></button></p>
+
+            <p class="sub-header">Numeric Sort</p>
+            <p>By default, the sort() function sorts values as strings. This works well for strings ("Apple" comes before "Banana").
+                However, if numbers are sorted as strings, "25" is bigger than "100", because "2" is bigger than "1". Because
+                of this, the sort() method will produce incorrect result when sorting numbers. You can fix this by providing
+                a compare function:</p>
+            <p class="example">var points = [40, 100, 1, 5, 25, 10]; points.sort(function(a, b){return a - b});<button class="copy-clipboard"></button></p>
+
+            <p class="sub-header">The Compare Function</p>
+            <p>The purpose of the compare function is to define an alternative sort order. The compare function should return
+                a negative, zero, or positive value, depending on the arguments:</p>
+            <p class="example">function(a, b){return a-b}<button class="copy-clipboard"></button></p>
+
+            <p class="sub-header">Sorting an Array in Random Order</p>
+            <p></p>
+            <p class="example">var points = [40, 100, 1, 5, 25, 10]; points.sort(function(a, b){return 0.5 - Math.random()});<button class="copy-clipboard"></button></p>
+
+            <p class="sub-header">Find the Highest (or Lowest) Array Value</p>
+            <p>There are no built-in functions for finding the max or min value in an array. However, after you have sorted
+                an array, you can use the index to obtain the highest and lowest values. Sorting ascending:</p>
+            <p class="example">var points = [40, 100, 1, 5, 25, 10]; points.sort(function(a, b){return a - b});<button class="copy-clipboard"></button></p>
+
+            <p class="sub-header">Using Math.max() on an Array</p>
+            <p>You can use Math.max.apply to find the highest number in an array:</p>
+            <p class="example">function myArrayMax(arr) { return Math.max.apply(null, arr); }<button class="copy-clipboard"></button>
+            </p>
+
+
+        </div>
+
+
+        <div id="DateObjects" class="main-subject">
+            <h3>JavaScript Date Objects</h3>
+            <p></p>
+
+            <p class="sub-header"></p>
+            <p>JavaScript Date Object lets us work with dates: Tue Jun 26 2018 23:26:05 GMT+0300 (Jerusalem Daylight Time)</p>
+            <p class="example">var d = new Date();<button class="copy-clipboard"></button></p>
+
+            <p class="sub-header">JavaScript Date Output</p>
+            <p>By default, JavaScript will use the browser's time zone and display a date as a full text string: Tue Jun 26
+                2018 23:26:05 GMT+0300 (Jerusalem Daylight Time)</p>
+            <p class="example">new Date() new Date(year, month, day, hours, minutes, seconds, milliseconds) new Date(milliseconds) new Date(date
+                string)<button class="copy-clipboard"></button>
+            </p>
+
+            <p class="sub-header">new Date()</p>
+            <p>new Date() creates a new date object with the current date and time:</p>
+            <p class="example">var d = new Date();<button class="copy-clipboard"></button></p>
+
+            <p class="sub-header">new Date(year, month, ...)</p>
+            <p>new Date(year, month, ...) creates a new date object with a specified date and time. 7 numbers specify year,
+                month, day, hour, minute, second, and millisecond (in that order):</p>
+            <p class="example">var d = new Date(2018, 11, 24, 10, 33, 30, 0);<button class="copy-clipboard"></button></p>
+
+        </div>
+
+
+        <div id="DateFormats" class="main-subject">
+            <h3>JavaScript Date Formats</h3>
+            <p></p>
+
+            <p class="sub-header">JavaScript Date Input</p>
+            <p>There are generally 3 types of JavaScript date input formats:</p>
+            <p class="example">Wed Mar 25 2015 02:00:00 GMT+0200 (Jerusalem Standard Time)<button class="copy-clipboard"></button></p>
+
+            <p class="sub-header">JavaScript ISO Dates</p>
+            <p>ISO 8601 is the international standard for the representation of dates and times. The ISO 8601 syntax (YYYY-MM-DD)
+                is also the preferred JavaScript date format</p>
+            <p class="example">var d = new Date("2015-03-25");<button class="copy-clipboard"></button></p>
+
+            <p class="sub-header">ISO Dates (Year and Month)</p>
+            <p>ISO dates can be written without specifying the day (YYYY-MM):</p>
+            <p class="example">var d = new Date("2015-03");<button class="copy-clipboard"></button></p>
+       
+        </div>
+
+        <div id="JavaScriptStrings" class="main-subject">
+            <h3>JavaScript Strings</h3>
+            <p>JavaScript strings are used for storing and manipulating text.</p>
+
+            <p class="sub-header">JavaScript Strings</p>
+            <p>A JavaScript string is zero or more characters written inside quotes.</p>
+            <p class="example">var x = "John Doe";<button class="copy-clipboard"></button></p>
+
+            <p class="sub-header">String Length</p>
+            <p>The length of a string is found in the built in property length:</p>
+            <p class="example">var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+                    var sln = txt.length;<button class="copy-clipboard"></button></p>
+           
+        </div>
+
+        <div id="JavaScriptEvents" class="main-subject">
+            <h3>JavaScript Events</h3>
+            <p>HTML events are "things" that happen to HTML elements.
+
+                    When JavaScript is used in HTML pages, JavaScript can "react" on these events.</p>
+
+            <p class="sub-header">HTML Events</p>
+            <p>An HTML event can be something the browser does, or something a user does.
+
+                    Here are some examples of HTML events:
+                    
+                    An HTML web page has finished loading
+                    An HTML input field was changed
+                    An HTML button was clicked
+                    Often, when events happen, you may want to do something.
+                    
+                    JavaScript lets you execute code when events are detected.
+                    
+                    HTML allows event handler attributes, with JavaScript code, to be added to HTML elements.
+                    
+                    With single quotes:</p>
+            <p class="example">button onclick="document.getElementById('demo').innerHTML = Date()">The time is?/button<button class="copy-clipboard"></button></p>
+
+            <p class="sub-header">What can JavaScript Do?</p>
+            <p>Event handlers can be used to handle, and verify, user input, user actions, and browser actions:
+
+                    Things that should be done every time a page loads
+                    Things that should be done when the page is closed
+                    Action that should be performed when a user clicks a button
+                    Content that should be verified when a user inputs data
+                    And more ...
+                    Many different methods can be used to let JavaScript work with events:
+                    
+                    HTML event attributes can execute JavaScript code directly
+                    HTML event attributes can call JavaScript functions
+                    You can assign your own event handler functions to HTML elements
+                    You can prevent events from being sent or being handled
+                    And more ...</p>
+           
+        </div>
+
+        <div id="" class="main-subject">
+            <h3></h3>
+            <p></p>
+
+            <p class="sub-header"></p>
+            <p></p>
+            <p class="example"> <button class="copy-clipboard"></button></p>
+
+            <p class="sub-header"></p>
+            <p></p>
+            <p class="example"> <button class="copy-clipboard"></button></p>
+
+            <p class="sub-header"></p>
+            <p></p>
+            <p class="example"> <button class="copy-clipboard"></button></p>
+
+            <p class="sub-header"></p>
+            <p></p>
+            <p class="example"> <button class="copy-clipboard"></button></p>
+
+            <p class="sub-header"></p>
+            <p></p>
+            <p class="example"> <button class="copy-clipboard"></button></p>
+
+            
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
