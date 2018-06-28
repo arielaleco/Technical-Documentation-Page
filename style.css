@@ -34,7 +34,7 @@ body{
 
 
 #left-panel{
-    background-color: gray ;
+    /* background-color: gray ; */
     position:fixed;
     height: 100%;
     width: 240px;
@@ -42,18 +42,12 @@ body{
     padding-top:71px;
    
     /* background-image: url('https://us.123rf.com/450wm/madmaxer/madmaxer1108/madmaxer110800019/10276960-3d-illustration-of-colorful-books.jpg?ver=6'); */
-    background-image: url('images/books.jpg');
+    /* background-image: url('images/books.jpg'); */
    
     background-size: 290px;
     background-position: -16px 78px;
     
     background-attachment: fixed; 
-    /* background-image: url("https://us.123rf.com/450wm/frannyanne/frannyanne1502/frannyanne150200017/37101489-close-shot-of-a-pile-of-old-shabby-well-used-text-books-stacked-in-a-pile-on-a-desk-in-front-of-a-bl.jpg?ver=6");
-
-    background-position: -200px 50px;
-    background-attachment: fixed; */
-    /* background-color: rgba(240, 241, 239, 0.802);
-    background-blend-mode: lighten; */
 }
 #main-panel{    
     height: 100%;    
@@ -101,7 +95,15 @@ ul  li{
     
     /* border-bottom: 1px solid lightgreen;         */
     /* padding: 5px 0px 5px 2px;; */
-    margin: 0px 10px;
+    /* margin: 0px 10px; */
+    margin-top: 8px;
+    padding:4px 20px;
+    border-radius: 15px;
+    
+    border: 1px solid rgb(179, 177, 177);
+    
+    box-shadow: 5px 10px 18px #888888;
+
 }
 
 .main-subject{
@@ -147,56 +149,66 @@ h3+p{
 }
 
 .orange-book{
-    transform: skewY(-21deg);
-    margin-top:-5px;
-    padding-left:14px;
-    
+    /* transform: skewY(-21deg); */
+    /* margin-top:15px;     */
+    background-color: rgb(255,81,12);        
 }
 .red-book{
-    transform: skewY(-12deg);
+    /* transform: skewY(-12deg);
     padding-left:29px;
-    padding-top:17px;
- 
+    padding-top:17px; */
+    background-color: rgb(244,12,12);
+    
 
 }
 .red-book a{
-    color:white;
+    /* color:white; */
 }
 .purple-book{
 
-    transform: skewY(-10deg);
+    /* transform: skewY(-10deg);
     padding-left:4px;
-    padding-top:4px;
+    padding-top:4px; */
+    background-color: rgb(172,47,239);
+    
+}
+.pink-book{
+    background-color: rgb(255,11,194);
 }
 .blue-book{
-    transform: skewY(-6deg);
+    /* transform: skewY(-6deg);
     padding-left:29px;
-    padding-top:14px;
+    padding-top:14px; */
+    background-color: rgb(12,13,254);    
 }
 .blue-book a{
     color:white;
 }
 .cyne-book{
-    transform: skewY(-5deg);
+    /* transform: skewY(-5deg);
     padding-left:18px;
     padding-top:7px;
- 
+  */
+  background-color: rgb(74,233,239);
 }
-.cyne-book a{
+/* .cyne-book a{
     font-size:19px;
-} 
+}  */
 .green-book{
-    transform: skewY(-1deg);
+    /* transform: skewY(-1deg);
     padding-left:13px;
-    padding-top:17px;
+    padding-top:17px; */
+    background-color: rgb(98,220,101);
 }
 .yellow-book{
-    transform: skewY(4deg);
+    /* transform: skewY(4deg);
     padding-left:9px;
-    padding-top:17px;
+    padding-top:17px; */
+    background-color: rgb(255,226,10);
 }
 .red-big-book{
-    transform: skewY(7deg);
+    /* transform: skewY(7deg);
     padding-left:3px;
-    padding-top:17px;
+    padding-top:17px; */
+    background-color: rgb(223,71,69);
 }
